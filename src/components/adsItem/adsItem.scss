@@ -1,0 +1,78 @@
+@import "../../style/variables.scss";
+
+.ads-item {
+    margin-left: 24px;
+    margin-bottom: 24px;
+    width: 224px;
+    height: 368px;
+    &__wrapper {
+        padding: 2px 12px 12px 12px;
+    }
+    &__wrapper--visited {
+        background: #FFF6A5;
+    }
+    &__top-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon-grey svg {
+        fill: #C7C7C7;
+        &:hover {
+            fill: $main-green;
+            cursor: pointer;
+        }
+    }
+    &__icon-wrapper {
+        display: flex;
+    }
+    &__icon-grey + &__icon-grey {
+        margin-left: 8px;
+    }
+    &__old-price {
+        text-decoration: line-through;
+        font-weight: 400;
+        font-size: 14px;
+        color: #5A5A5A;
+    }
+    &__price {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+
+        color: $main-black;
+    }
+    &__descr {
+        margin-top: 8px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: $main-black;
+    }
+    
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 14px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #8F8F8F;
+    }
+}
+
+
+
+#rub-small {
+    line-height: 3px;
+	width: 0.4em;
+	border-bottom: 1px solid #000; 
+	display: inline-block;
+}
+
+#rub-big {
+    line-height: 8px;
+	width: 0.4em;
+	border-bottom: 2px solid #000; 
+	display: inline-block;
+}

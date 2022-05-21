@@ -1,0 +1,58 @@
+@import '../../style/variables.scss';
+
+
+.ads {
+    &__title {
+        margin-left: 32px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+        margin-bottom: 8px;
+        color: $main-black;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__more-wrapper {
+        display: flex;
+        justify-content: end;
+    }
+
+    &__view-more {
+        display: flex;
+        justify-content: end;
+        width: 120px;
+        margin-right: 24px;
+        transform: translateY(-8px);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        color: $main-green;
+        img {
+            margin-left: 5px;
+        }
+        &:hover {
+            transition:all 0.5s ;
+            transform:translateY(-12px);
+            cursor:pointer;
+        }
+    }
+}
+
+
+
+@media (max-width: 1012px) {
+    .ads {
+        &__title {
+            display: flex;
+            justify-content: center;
+        }
+        &__wrapper {
+            justify-content: center;
+        }
+    }
+}
