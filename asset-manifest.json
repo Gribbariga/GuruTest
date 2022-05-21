@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/guruTest%20/static/css/main.8490c28e.css",
-    "main.js": "/guruTest%20/static/js/main.9b92b1c6.js",
-    "static/media/Error.jpg": "/guruTest%20/static/media/Error.8295aa19c4a1eb0b7da9.jpg",
-    "index.html": "/guruTest%20/index.html",
-    "static/media/разворот.svg": "/guruTest%20/static/media/разворот.6edcdb16b0a8c2dfec1332f3d9000841.svg",
-    "main.8490c28e.css.map": "/guruTest%20/static/css/main.8490c28e.css.map",
-    "main.9b92b1c6.js.map": "/guruTest%20/static/js/main.9b92b1c6.js.map"
+    "main.css": "/guruTest/static/css/main.8490c28e.css",
+    "main.js": "/guruTest/static/js/main.63620002.js",
+    "static/media/Error.jpg": "/guruTest/static/media/Error.8295aa19c4a1eb0b7da9.jpg",
+    "index.html": "/guruTest/index.html",
+    "static/media/разворот.svg": "/guruTest/static/media/разворот.6edcdb16b0a8c2dfec1332f3d9000841.svg",
+    "main.8490c28e.css.map": "/guruTest/static/css/main.8490c28e.css.map",
+    "main.63620002.js.map": "/guruTest/static/js/main.63620002.js.map"
   },
   "entrypoints": [
     "static/css/main.8490c28e.css",
-    "static/js/main.9b92b1c6.js"
+    "static/js/main.63620002.js"
   ]
 }
