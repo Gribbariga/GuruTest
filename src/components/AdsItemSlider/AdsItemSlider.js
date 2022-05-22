@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
@@ -51,4 +51,4 @@ const AdsItemSlider = ({seen}) => {
     )
 }
 
-export default React.memo(AdsItemSlider);
+export default AdsItemSlider;

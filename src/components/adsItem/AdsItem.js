@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 import '../AdsItemSlider/AdsItemSlider';
 import AdsItemSlider from '../AdsItemSlider/AdsItemSlider';
@@ -56,4 +56,4 @@ const AdsItem = ({data}) => {
 }
 
 
-export default React.memo(AdsItem);
+export default AdsItem;
